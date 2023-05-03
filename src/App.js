@@ -1,5 +1,5 @@
  import { QueryClient, QueryClientProvider } from "react-query";
- import { ReactQueryDevtools } from 'react-query/devtools';
+//  import { ReactQueryDevtools } from 'react-query/devtools';
 import Header from "./components/Header";
 // import Repositories from "./components/Repositories";
 
@@ -12,7 +12,6 @@ const App = () => {
     {/* <Repositories /> */}
       {/* The rest of your application */}
 
-      <ReactQueryDevtools initialIsOpen={true} />
 
     </QueryClientProvider>
   );
